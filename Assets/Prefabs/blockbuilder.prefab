@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6115525119703025955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4682285817180253044}
+  - component: {fileID: 2123322486399147549}
+  m_Layer: 0
+  m_Name: blockbuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4682285817180253044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115525119703025955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 46.66204, y: 9.76013, z: -43.355167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2123322486399147549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115525119703025955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dae788912f92604f845667cd53e22ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blocks:
+  - {fileID: 1925008818198719150, guid: ac90e9ada419f8248a05500f10542069, type: 3}
+  - {fileID: 2750885022565182506, guid: 386fcd5a939d3fe4a8b47f74e9d837d6, type: 3}
+  - {fileID: 2473038378257822179, guid: c189dfa84d694784a8e62842f19d2c43, type: 3}
+  - {fileID: 3092302335861368222, guid: 78aeaebaf0eaa5b45ae8855a2f970232, type: 3}
+  - {fileID: 6605301647230236344, guid: ce6da7ef850128740949f5233882c18d, type: 3}
+  - {fileID: 8490434223162368966, guid: 5e821fff348649f4cbde68db704c2f41, type: 3}
+  - {fileID: 7312224783080119673, guid: 9c57f06701b940041bbf4cccd4bdef2f, type: 3}
+  - {fileID: 4597300012441833919, guid: 2c52f1d1aef64984ba2b5f70b5298a09, type: 3}
+  - {fileID: 5936161206497811902, guid: 7cbd90f40ff6c914b95b3bff5a5630f1, type: 3}
+  - {fileID: 5226126220831181578, guid: 3e09e5b5e1dd44f4a90f8510e6baa462, type: 3}
+  - {fileID: 1523667835362674715, guid: 1ff2e2661dbd52749afb2407a5559d6c, type: 3}
+  - {fileID: 855274708736510399, guid: 3bbec51664d1ea04f9dde632d3b80355, type: 3}
+  - {fileID: 2893801632193015228, guid: 53280911c008a4c409e4264fe7771f9e, type: 3}
+  - {fileID: 3463453942401275069, guid: 7ad18f39ea5355e49959128e92b36aa3, type: 3}
+  ground:
+  - {fileID: 7391027850094006610, guid: c4b0d2bbff08d444f9e0aafaeeb3b26e, type: 3}
+  - {fileID: 8652122490057648878, guid: 32f0cdb359b94684089e63fabc810caa, type: 3}
+  - {fileID: 28077888271690255, guid: bfb40500f98fc9d4eb6a86274f935964, type: 3}
+  - {fileID: 8470821764958154367, guid: 260fc3016e770ac43baf1fe3ffcf7613, type: 3}
+  - {fileID: 2320173986771742812, guid: f59dd06eeaa0d6f4ab12bd097faac64e, type: 3}
+  - {fileID: 5314930001918226676, guid: aca8f47b0a97ea346a925b735808a779, type: 3}
+  - {fileID: 4117577994591120192, guid: acfe099da6206f84bae682fb8e3fd087, type: 3}
+  - {fileID: 7774356883109902771, guid: 0fe937f3524ed8f4692133fa715dfc7c, type: 3}
+  enemies:
+  - {fileID: 1712137073520964475, guid: 0d45cb1d867a64142893411bb4616c56, type: 3}
+  - {fileID: 2783996397210267597, guid: 4782c257034b0c64595af17840164eb6, type: 3}
+  - {fileID: 8183920538821046451, guid: 45b4f550ce5504045bcd9446d721c034, type: 3}
+  collider: {fileID: 6019578337175711266, guid: e1ade3b753ed2e9418dfc60aacf991a6,
+    type: 3}
+  map: {fileID: 0}
+  exit: {fileID: 2256440631292146981, guid: a9043b8c7bd667949a0d03350235c07c, type: 3}
+  key: {fileID: 4353799073524233011, guid: e6752b4467850184c81061cb54196a32, type: 3}
